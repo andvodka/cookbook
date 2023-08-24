@@ -3,7 +3,12 @@ import Link from 'next/link';
 const recipes: {
   slug: string,
   title: string
-}[] = [];
+}[] = [
+  {
+    slug: 'custard-cream',
+    title: 'カスタードクリーム'
+  }
+];
 
 export default function RecipeList({ ...props }) {
   return (
