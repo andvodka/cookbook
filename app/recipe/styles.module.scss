@@ -1,0 +1,54 @@
+.prose {
+  %heading {
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+  }
+
+  h1 {
+    @extend %heading;
+    font-size: 2rem;
+  }
+
+  h2 {
+    @extend %heading;
+    font-size: 1.5rem;
+  }
+
+  h3 {
+    @extend %heading;
+    font-size: 1.25rem;
+  }
+
+  h4 {
+    @extend %heading;
+    font-size: 1rem;
+  }
+
+  h5 {
+    @extend %heading;
+    font-size: .875rem;
+  }
+
+  h6 {
+    @extend %heading;
+    font-size: .85rem;
+  }
+
+  %list {
+    padding-left: 1rem;
+
+    li + li {
+      margin-top: 1rem;
+    }
+  }
+
+  ol {
+    @extend %list;
+    list-style-type: decimal;
+  }
+
+  ul {
+    @extend %list;
+    list-style-type: disc;
+  }
+}
