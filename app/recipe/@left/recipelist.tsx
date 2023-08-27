@@ -7,6 +7,10 @@ const recipes: {
   {
     slug: 'custard-cream',
     title: 'カスタードクリーム'
+  },
+  {
+    slug: 'korokke',
+    title: 'コロッケ'
   }
 ];
 
