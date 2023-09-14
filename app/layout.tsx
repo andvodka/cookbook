@@ -19,8 +19,8 @@ export default function RootLayout({
 }) {
   return (
     <html lang="ja">
-      <body className={'flex flex-col h-screen text-black bg-white ' + notoSansJapanese.className}>
-        <header className="bg-white border-b border-gray-300">
+      <body className={'flex flex-col lg:h-screen min-h-screen ' + notoSansJapanese.className}>
+        <header className="sticky top-0 text-black bg-white border-b border-gray-300">
           <div className="p-4 mx-auto w-full max-w-7xl">
             <div className="flex item-center text-slate-500">
               <Link className="my-auto mr-8 text-2xl text-black" href="/">Cookbook</Link>
@@ -28,7 +28,7 @@ export default function RootLayout({
             </div>
           </div>
         </header>
-        <main className="overflow-auto flex-auto">
+        <main className="lg:overflow-auto text-black bg-white flex-auto">
           {children}
         </main>
       </body>

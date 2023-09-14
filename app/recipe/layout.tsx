@@ -12,7 +12,7 @@ export default async function Layout({
   left: React.ReactNode
 }) {
   return (
-    <div className="overflow-auto lg:overflow-hidden relative h-full">
+    <div className="lg:overflow-hidden lg:relative h-full">
       <div className="lg:overflow-auto lg:absolute lg:inset-0 lg:w-[16rem] lg:mx-auto max-w-lg mx-auto lg:translate-x-[-24rem]">
         {left}
       </div>
